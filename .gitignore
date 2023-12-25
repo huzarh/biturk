@@ -4,12 +4,15 @@
 /node_modules
 /.pnp
 .pnp.js
-
+Untitled-1.js
+Untitled-2.json
 # testing
 /coverage
 
 # production
 /build
+/src/imgs/textures
+/src/imgs
 
 # misc
 .DS_Store

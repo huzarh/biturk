@@ -9,6 +9,8 @@ import { OrbitControls } from "@react-three/drei";
 export default function App() { 
 
   return (
+    <div>
+      <h1>Bi-Türkçe</h1>
     <Canvas
       gl={{
         physicallyCorrectLights: true,
@@ -17,12 +19,13 @@ export default function App() {
         legacy: true,
       }}
     > 
-      <ambientLight args={["white"]} intensity={0.3} />
-      <pointLight position={[0.01, 9, 0]} intensity={50} />
+      <ambientLight args={["white"]} intensity={0.5} />
+      <pointLight position={[9, 9, 0]} intensity={0.5} />
       <OrbitControls />
       <TestGlobe/>
       <axesHelper args={[5]} />
     </Canvas>
+    </div>
   );
 }
 
